@@ -1,0 +1,30 @@
+.horizontal-align{
+    display: flex;
+    justify-content: center;
+}
+#body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: #272727;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    /* font-weight: 900; */
+    
+}
+#body .container{
+    background-image: url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg"), linear-gradient(110deg, #f93d66, #6d47d9);
+    margin: 32px;
+}
+
+#body .container .nav .inside-nav .max-in{
+    font-weight: 900;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #ffc600;
+    background-color: #ffc600;
+    font-size: 20px;    
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
