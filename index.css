@@ -2,20 +2,30 @@
     display: flex;
     justify-content: center;
 }
+.vertical-align{
+    display: flex;
+    align-content: center;
+}
 #body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     font-family: #272727;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    /* font-weight: 900; */
-    
+    /* font-weight: 900; */   
 }
 #body .container{
     background-image: url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg"), linear-gradient(110deg, #f93d66, #6d47d9);
-    margin: 32px;
+    margin: 50px;
 }
+#body .container .nav{
+    margin-top: 30px;
+}
+#body .container .nav .inside-nav{
+    margin-top: 15px;
+    margin-bottom: 20px;
 
+}
 #body .container .nav .inside-nav .max-in{
     font-weight: 900;
     padding: 10px;
@@ -23,8 +33,54 @@
     margin-right: 5px;
     border: 1px solid #ffc600;
     background-color: #ffc600;
-    font-size: 20px;    
-    padding-left: 15%;
-    padding-right: 15%;
+    font-size: 20px;
+    padding-left: 15.5%;
+    padding-right: 15.5%;
 }
+#body .container .bellow-nav{
+    display: flex;
+}
+#body .container .bellow-nav .left{
+    background: url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    width: 65%;
+}
+#body .container .bellow-nav .left .teery-parent{
+    display: inline-block;
+}
+#body .container .bellow-nav .left .teery-parent .terry{
+    border: 1px solid #ffc600;
+    background-color: #ffc600;
+    display: inline-block;
+    font-family: #272727;
+    font-size:20px ;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+}
+#body .container .bellow-nav .left .teery-parent .preety{
+    border: 1px solid #ffc600;
+    background-color: #ffc600;
+    display: inline-block;
+    font-family: #272727;
+    font-size:15px ;
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#body .container .bellow-nav .right{
 
+    width: 34%;
+}
+#body .container .bellow-nav .right .price{
+
+    border: 1px solid #ffc600;
+    background-color: #ffc600;
+    
+}
