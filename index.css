@@ -21,8 +21,9 @@
     margin-top: 30px;
 }
 #body .container .nav .inside-nav{
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 1.201%;
+    margin-bottom: 3%;
+    width: 100%;
 }
 #body .container .nav .inside-nav .max-in{
     font-weight: 900;
@@ -32,8 +33,13 @@
     border: 1px solid #ffc600;
     background-color: #ffc600;
     font-size: 20px;
-    padding-left: 15.5%;
-    padding-right: 15.5%;
+    width:100%
+}
+#max-in-right{
+    margin-left: 0%;
+}
+#max-in-left{
+    margin-right:0px;
 }
 #body .container .bellow-nav{
     display: flex;
@@ -76,15 +82,22 @@
     margin-bottom: 15px;   
 }
 #body .container .bellow-nav .right{
-    width: 34%;
+    width: 35%;
+    overflow-y: hidden;
 }
 #body .container .bellow-nav .right .price{
     border: 1px solid #ffc600;
     background-color: #ffc600;
-    height: 50%;
+    height: 46.3%;
     width: 90%;
-    margin-right: auto;
-    margin-left: auto;
+    float: right;
+    display: grid;
+}
+#body .container .bellow-nav .right #price-up{
+    margin-bottom: 2.6%;
+}
+#body .container .bellow-nav .right #price-down{
+    margin-top: 2.6%;
 }
 #body .container .bellow-nav .right .price .onepnine{
     font-size: 60px;
@@ -120,8 +133,8 @@
 }
 #body .container .featured{
     background: white;
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-top: 5%;
+    padding-bottom: 2.5%;
 }
 #body .container .featured .taco-image{
     display: inline-block;
@@ -130,6 +143,7 @@
     display: inline-block;
     color: #272727;
     font-weight: bolder;
+    display: grid;
 }
 #body .container .featured .taco-img-detail .featured-taco{
     font-size: x-large;
@@ -148,6 +162,7 @@
     padding-right: 10px;
     padding-top: 7px;
     padding-bottom: 7px;
+    width: 26%;
 }
 #body .container .instant-grams{
     margin-top: 10px;
