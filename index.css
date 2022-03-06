@@ -49,6 +49,8 @@
     background-repeat: no-repeat;
     min-height: 400px;
     width: 65%;
+    display: grid;
+    align-content: center;
 }
 #body .container .bellow-nav .left .teery-parent{
     display: inline-block;
@@ -63,6 +65,11 @@
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 50px;
+    
+}
+.onepine-parent{
+    display: grid;
+    align-content: center;
 }
 #body .container .bellow-nav .left .teery-parent .preety{
     border: 1px solid #ffc600;
@@ -170,6 +177,12 @@
 #body .container .instant-grams .column-one img{
     width: 18.7%;
     margin: 10px;
+}
+#body .container .instant-grams .instant-grams-text{
+    font-size: 23px;
+    color: #272727;
+    letter-spacing: -1px;
+    font-weight: bold;
 }
 #body .container .instant-grams .column-two img{
     width: 18.7%;
